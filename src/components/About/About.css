@@ -1,0 +1,99 @@
+.about-container {
+     color:#555;
+     background-color: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Sección de información general */
+.info-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+   color : #000000;
+
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #050505;
+  margin-bottom: 20px;
+}
+
+
+/* Contenedores de información */
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-box {
+  background-color: rgba(5, 44, 11, 0.658);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(252, 252, 252, 0.1);
+  width: 250px;
+  text-align: center;
+   color : #fff;
+}
+
+.info-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info-description {
+  font-size: 16px;
+  color: #ffffff;
+}
+.about-section {
+    color : #fff;
+    background-color: #3d3e3fd7; /* Azul claro, cambia si deseas otro color */
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .about-section .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-section .subtitle {
+    font-size: 18px;
+    color: #f0e8e8;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  .about-text {
+    font-size: 16px;
+    color: #420a0a;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 30px 15px;
+    }
+  }

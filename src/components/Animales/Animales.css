@@ -1,0 +1,55 @@
+.animales-container {
+  background-color: #1e1e1e; /* Cambiar el color de fondo */
+  padding: 20px;
+  text-align: center;
+}
+
+.animal-card {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  background-color: #6019a3; /* Cambiar el color de fondo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cambiar el color de la sombra */
+}
+
+.animal-card img {
+  width: 75%;
+  border-radius: 10px;
+}
+
+.animal-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333; /* Cambiar el color del texto */
+}
+
+.animal-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666; /* Cambiar el color del texto */
+}
+
+.animal-details {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.animal-details h4 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333; /* Cambiar el color del texto */
+}
+
+.animal-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666; /* Cambiar el color del texto */
+}
+
+.animales-container h1,
+.animales-container h2 {
+  color: #ffffff; /* Cambiar el color del texto */
+}

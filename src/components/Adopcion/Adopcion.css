@@ -1,0 +1,61 @@
+.adopcion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+.title {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.animal-card {
+    width: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.image-container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.animal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.adopt-button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+}
+
+.adopt-message {
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.adopt-message a {
+    color: #4caf50;
+    text-decoration: none;
+}

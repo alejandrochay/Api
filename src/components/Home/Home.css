@@ -1,0 +1,102 @@
+.background {
+  background-image: url('https://img2.wallspic.com/crops/3/2/0/2/82023/82023-gato-raza_de_perro-cuidado_de_mascotas-refugio_de_animales-veterinario-3840x2160.jpg');
+  background-size: cover; /* Cambiado a cover para que la imagen cubra todo el fondo */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.712); /* Fondo blanco con más transparencia */
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px; /* Aumentado el padding para más espacio interno */
+  max-width: 800px;
+  margin: auto;
+}
+.title1 {
+  color: #1c7760;
+  font-size: 36px; /* Tamaño de fuente aumentado */
+  margin-bottom: 20px; /* Espacio inferior añadido */
+}
+
+.subtitle1 {
+  color:#000; 
+  font-size: 24px; /* Tamaño de fuente aumentado */
+  margin-bottom: 20px; /* Espacio inferior añadido */
+}
+
+.welcome {
+  color: #555;
+  font-size: 18px; /* Tamaño de fuente aumentado */
+  margin-bottom: 20px; /* Espacio inferior añadido */
+}
+
+.content {
+  color: #000;
+  font-size: 16px; /* Tamaño de fuente aumentado */
+  margin-bottom: 20px; /* Espacio inferior añadido */
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: red;
+  margin-left: 10px;
+}
+
+.discount {
+  color: blue;
+  margin-left: 10px;
+}
+
+.date-selection,
+.time-selection {
+  margin-top: 20px;
+}
+
+.date-input,
+.time-select {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #925252;
+  border-radius: 5px;
+}
+
+.button-container {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.register-button {
+  background-color: #1c7760;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.register-button:disabled {
+  background-color: #fdf1f1;
+  cursor: not-allowed;
+}
+
+.confirmation-alert {
+  margin: 20px 0;
+}
